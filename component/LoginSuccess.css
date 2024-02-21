@@ -1,0 +1,23 @@
+.Success {
+    background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 205vh;
+    background-position: center;
+    background-size:cover ;
+}
+.Success p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+    bottom: -350px;
+    right: -575px;
+}
+.Success button{
+    position:relative;
+    bottom: -370px;
+    right: -750px;
+    background-color:black;
+
+
+
+}

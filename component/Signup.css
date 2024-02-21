@@ -1,0 +1,35 @@
+
+.signup-container {
+  min-height: 100vh;
+  min-width: 205vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.signup-form {
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signup-container button{
+  position: relative;
+  right:-127px;
+  bottom: -5px;
+  color:white;
+  background-color: brown;
+  border: none;
+  border-radius: 5px;
+}
+

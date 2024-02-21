@@ -1,0 +1,75 @@
+/* Home.css */
+
+.home-container  {
+  margin: 0;  /* Remove default body margin */
+  padding: 0; 
+  background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 205vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center; 
+  flex: 1; 
+  color: aliceblue;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.content h2{
+  color: rgb(18, 18, 18);
+   position: relative;
+   bottom:-30px;
+   right:-350px;
+  color:beige;
+}
+.login-button {
+  background-color: #d8dbe0; /* Adjust the color as needed */
+}
+
+.signup-button {
+  background-color:brown; /* Adjust the color as needed */
+} 
+.About-button{
+  background-color: #d8dbe0;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  position: relative;
+  top:-450px;
+  right:-550px;
+}
+
+
+.text-center {
+  text-align: right;
+  color: white;  
+}
+
+.home-container h1{
+  justify-content:right;
+  font-weight:bolder;
+}
+.home-container h1{
+  position: relative;
+  top:-250px;
+  left: -550px;
+  color:black;
+
+}
+p{
+  font-weight: 900;
+}
+

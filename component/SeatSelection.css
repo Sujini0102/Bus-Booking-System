@@ -1,0 +1,87 @@
+/* SeatSelection.css */
+
+/* Container styling */
+.seat-selection-container {
+  margin: 20;
+  padding: 20;
+  background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');  /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 200vh;
+  color: black; /* Set text color to white for better visibility on the background */
+}
+
+/* Header styling */
+h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+/* Seat layout styling */
+.seat-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.seat-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.seat {
+  margin: 5px;
+  padding: 20px;
+  width: 60px;
+  height: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
+
+.seat.selected {
+
+  color: #040101;
+  background-color: brown;
+}
+
+/* Selected seats information styling */
+div p {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+.seat-selection-container h2{
+  position: relative;
+  right:-20px;;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+.seat-selection-container p{
+  position: relative;
+  right:-675px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.seat-selection-container button{
+  position: relative;
+  right:-699px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color:black;
+
+}
+  
+ 
+
+
+
+  

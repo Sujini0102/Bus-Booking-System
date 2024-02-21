@@ -1,0 +1,90 @@
+/* BusSelection.css */
+.BusSelection{
+    margin: 0;  /* Remove default body margin */
+    padding: 0; 
+    background-image: url('https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    color: white;
+}
+.bus-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* This ensures text alignment for the entire container */
+    height: 30vh; 
+     
+  }
+  
+  .submit-button {
+   /* Adjust the color as needed */
+    color: #fff;
+    padding: 10px ;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .place-dropdowns,
+  .bus-dropdown {
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  label {
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+
+  }
+  
+  select {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  p {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .date-picker {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for the date picker input */
+  .react-datepicker__input-container input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the date picker calendar */
+  .react-datepicker__calendar {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the date picker selected date */
+  .react-datepicker__day--selected {
+    background-color: #007bff; /* Adjust the color as needed */
+    color: #fff;
+  }
